@@ -63,6 +63,7 @@ html{
     display: inline-block;
 }
 .navbar .menu li a{
+    display: block;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -97,7 +98,7 @@ html{
     color: #fff;
     z-index: 999;
     font-size: 30px;
-    border-radius: 6px;
+    border-radius: 12px;
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
@@ -277,6 +278,9 @@ section .title::after{
 
 
 /* Design Skills Section */
+.interests{
+    margin-left: 20px;
+}
 .skills .title::after{
     content: "what i know";
 } 
@@ -344,6 +348,9 @@ section .title::after{
 
 
 /* Design Projects Section */
+.project-location{
+    color: #fff;
+}
 .projects .title::after{
     content: "what i did";
 }
@@ -506,8 +513,9 @@ section .title::after{
 /* Design Footer Section */
 footer{
     background: #111;
-    padding: 20px 23px;
+    padding: 40px 23px;
     color: #fff;
+    text-align: center;
 }
 footer span .far{
     font-family: 'Poppins', 'sans-serif';
@@ -519,25 +527,6 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
