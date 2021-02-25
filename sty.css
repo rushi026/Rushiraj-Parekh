@@ -538,8 +538,14 @@ footer span a:hover{
 /* Responsive Media Query Starts */
 @media (max-width: 1300px) {
     .home .max-width{
-        margin-left: 0px;
+        /* position: relative;
+        right: 0; */
+        margin-left: 500px;
     }
+    /* .home .max-width .home-content {
+        position: relative;
+        left: 20px;
+    } */
 }
 
 
@@ -556,6 +562,9 @@ footer span a:hover{
 @media (max-width: 991px) {
     .max-width{
         padding: 0px 50px;
+    }
+    .home .max-width {
+        margin-left: 200px;
     }
 }
 
@@ -652,4 +661,17 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
+    .home .max-width {
+        margin-left: 0px;
+        /* width: 300px; */
+    }
 }
+
+/* @media (max-width: 355px) {
+    .home .home-content .text-2 {
+        font-size: 40px;   
+    }
+    .home .home-content .text-3{
+        font-size: 22px;
+    }
+} */
